@@ -36,20 +36,20 @@
 		<item>30000</item>
 		<item>60000</item>
 	</string-array>
-	
+
 	<string-array name="settings_application_interval_entries">
-		<item>half second</item>
-		<item>1 second</item>
-		<item>2 seconds</item>
-		<item>5 seconds</item>
-		<item>10 seconds</item>
-		<item>half minute</item>
-		<item>1 minute</item>
+		<item>halbe Sekunde</item>
+		<item>1 Sekunde</item>
+		<item>2 Sekunden</item>
+		<item>5 Sekunden</item>
+		<item>10 Sekunden</item>
+		<item>halbe Minute</item>
+		<item>1 Minute</item>
 	</string-array>
-	
+
 	<string-array name="settings_interval_values">
 		<item>0</item>
-    	<item>1</item>
+    <item>1</item>
 		<item>2</item>
 		<item>5</item>
 		<item>10</item>
@@ -59,22 +59,23 @@
 		<item>120</item>
 		<item>240</item>
 	</string-array>
-	
+
 	<string-array name="settings_interval_entries">
-		<item>never</item>
-   		<item>1 minute</item>
-		<item>2 minutes</item>
-		<item>5 minutes</item>
-		<item>10 minutes</item>
-		<item>15 minutes</item>
-		<item>30 minutes</item>
-		<item>1 hour</item>
-		<item>2 hours</item>
-		<item>4 hours</item>
+		<item>niemals</item>
+   	<item>1 Minute</item>
+		<item>2 Minuten</item>
+		<item>5 Minuten</item>
+		<item>10 Minuten</item>
+		<item>15 Minuten</item>
+		<item>30 Minuten</item>
+		<item>1 Stunde</item>
+		<item>2 Stunden</item>
+		<item>4 Stunden</item>
 	</string-array>
-	
+
 	<string-array name="settings_language_values">
 		<item></item>
+		<item>de</item>
 		<item>en</item>
 		<item>hu</item>
 		<item>pl</item>
@@ -84,6 +85,7 @@
 
 	<string-array name="settings_language_entries">
 		<item>@string/default_string</item>
+		<item>deutsch</item>
 		<item>english</item>
 		<item>magyar</item>
 		<item>polski</item>
@@ -92,25 +94,25 @@
 	</string-array>
 
 	<string-array name="settings_rooted_values">
-	    <item>autodetect</item>
-   	    <item>yes</item>
-	    <item>no</item>
+	    <item>automatisch erkennen</item>
+   	  <item>ja</item>
+	    <item>nein</item>
 	</string-array>
-	
+
 	<string-array name="settings_rooted_entries">
 	    <item>@string/settings_rooted_autodetect</item>
-   	    <item>@string/boolean_yes</item>
+   	  <item>@string/boolean_yes</item>
 	    <item>@string/boolean_no</item>
 	</string-array>
 
 	<string-array name="settings_unit_temperature_values">
-	    <item>celsius</item>
-	    <item>fahrenheit</item>
+	    <item>Celsius</item>
+	    <item>Fahrenheit</item>
 	</string-array>
 
 	<string-array name="settings_unit_temperature_entries">
-	    <item>celsius</item>
-	    <item>fahrenheit</item>
+	    <item>Celsius</item>
+	    <item>Fahrenheit</item>
 	</string-array>
 
 	<string-array name="settings_notification_open_values">
