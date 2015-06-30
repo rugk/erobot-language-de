@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_activity_not_found">Activity not found</string>    
+	<string name="msg_permission_denied">No permission to use this feature</string>
+	<string name="msg_please_wait">Please wait &#8230;</string>	
+</resources>

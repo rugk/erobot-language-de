@@ -1,0 +1,7 @@
+# E-Robot German language files
+This repo contains the German language files of the Android app [E-Robot] (https://play.google.com/store/apps/details?id=com.bartat.android.robot).
+I created this to keep track of all changes in the files and to monitor my progress. But if you want you can of course also report translation errors or other things here - or change them by yourself and create a pull request.
+
+## About
+E-Robot was created by [Tamás Barta] (https://play.google.com/store/apps/developer?id=Tam%C3%A1s+Barta).
+The German translation was created by [rugk] (https://github.com/rugk).

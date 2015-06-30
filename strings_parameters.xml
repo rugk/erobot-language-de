@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="parameters_title">Parameters</string>
+	<string name="parameters_change">Change parameters</string>
+	<string name="parameters_booleangroup_error_noselection">%1$s: select at least one option</string>
+		
+	<string name="parameter_actions_action">action</string>
+	<string name="parameter_actions_add_action">Add action</string>
+	<string name="parameter_booleangroup_all">all</string>
+	<string name="parameter_events_event">event</string>
+	<string name="parameter_expression_change">Change expression</string>
+	<string name="parameter_expression_evaluate">Evaluate expression</string>
+	<string name="parameter_expression_delete">Delete expression</string>
+	<string name="parameter_expression_boolean_add_and">Add to And operator</string>
+	<string name="parameter_expression_boolean_add_not">Add to Not operator</string>
+	<string name="parameter_expression_boolean_add_or">Add to Or operator</string>
+	<string name="parameter_expression_boolean_change_and">Change to And operator</string>
+	<string name="parameter_expression_boolean_change_or">Change to Or operator</string>
+	<string name="parameter_image_pick_image">Pick an image</string>
+    <string name="parameter_image_pick_ipack_icon">Pick an Ipack icon</string>
+	<string name="parameter_image_too_large">Image is too large!\n\nMax: %1$d x %2$d\nSelected: %3$d x %4$d</string>
+    <string name="parameter_image_cannot_load">Cannot load image!</string>
+	<string name="parameter_interval_min">minimum</string>
+	<string name="parameter_interval_max">maximum</string>
+	<string name="parameter_location_missing">missing location</string>
+	<string name="parameter_nothing_is_selected">nothing is selected</string>
+	<string name="parameter_ringtone_pick">Pick a ringtone</string>
+	<string name="parameter_time_hour">hour</string>
+	<string name="parameter_time_minute">minute</string>
+	<string name="parameter_timeinterval_min">minimum hour:minute</string>
+	<string name="parameter_timeinterval_max">maximum hour:minute</string>
+</resources>

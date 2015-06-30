@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="settings_hour_of_day">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+	</string-array>
+
+	<string-array name="settings_application_interval_values">
+		<item>500</item>
+		<item>1000</item>
+		<item>2000</item>
+		<item>5000</item>
+		<item>10000</item>
+		<item>30000</item>
+		<item>60000</item>
+	</string-array>
+	
+	<string-array name="settings_application_interval_entries">
+		<item>half second</item>
+		<item>1 second</item>
+		<item>2 seconds</item>
+		<item>5 seconds</item>
+		<item>10 seconds</item>
+		<item>half minute</item>
+		<item>1 minute</item>
+	</string-array>
+	
+	<string-array name="settings_interval_values">
+		<item>0</item>
+    	<item>1</item>
+		<item>2</item>
+		<item>5</item>
+		<item>10</item>
+		<item>15</item>
+		<item>30</item>
+		<item>60</item>
+		<item>120</item>
+		<item>240</item>
+	</string-array>
+	
+	<string-array name="settings_interval_entries">
+		<item>never</item>
+   		<item>1 minute</item>
+		<item>2 minutes</item>
+		<item>5 minutes</item>
+		<item>10 minutes</item>
+		<item>15 minutes</item>
+		<item>30 minutes</item>
+		<item>1 hour</item>
+		<item>2 hours</item>
+		<item>4 hours</item>
+	</string-array>
+	
+	<string-array name="settings_language_values">
+		<item></item>
+		<item>en</item>
+		<item>hu</item>
+		<item>pl</item>
+		<item>ru</item>
+		<item>fr</item>
+	</string-array>
+
+	<string-array name="settings_language_entries">
+		<item>@string/default_string</item>
+		<item>english</item>
+		<item>magyar</item>
+		<item>polski</item>
+		<item>русский</item>
+		<item>française</item>
+	</string-array>
+
+	<string-array name="settings_rooted_values">
+	    <item>autodetect</item>
+   	    <item>yes</item>
+	    <item>no</item>
+	</string-array>
+	
+	<string-array name="settings_rooted_entries">
+	    <item>@string/settings_rooted_autodetect</item>
+   	    <item>@string/boolean_yes</item>
+	    <item>@string/boolean_no</item>
+	</string-array>
+
+	<string-array name="settings_unit_temperature_values">
+	    <item>celsius</item>
+	    <item>fahrenheit</item>
+	</string-array>
+
+	<string-array name="settings_unit_temperature_entries">
+	    <item>celsius</item>
+	    <item>fahrenheit</item>
+	</string-array>
+
+	<string-array name="settings_notification_open_values">
+		<item>com.bartat.android.robot.CommandsActivity</item>
+		<item>com.bartat.android.robot.HistoryActivity</item>
+	</string-array>
+
+	<string-array name="settings_notification_open_entries">
+		<item>@string/commands_title</item>
+		<item>@string/history_title</item>
+	</string-array>
+
+	<string-array name="settings_notification_priority_values">
+		<item>2</item>
+		<item>1</item>
+		<item>0</item>
+		<item>-1</item>
+		<item>-2</item>
+	</string-array>
+
+	<string-array name="settings_notification_priority_entries">
+		<item>@string/param_action_priority_max</item>
+		<item>@string/param_action_priority_high</item>
+		<item>@string/param_action_priority_default</item>
+		<item>@string/param_action_priority_low</item>
+		<item>@string/param_action_priority_min</item>
+	</string-array>
+</resources>

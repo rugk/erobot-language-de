@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="boolean_yes">yes</string>
+    <string name="boolean_no">no</string>
+    <string name="boolean_enabled">enabled</string>
+    <string name="boolean_disabled">disabled</string>
+    <string name="boolean_available">available</string>
+    <string name="boolean_not_available">not available</string>
+    <string name="boolean_on">on</string>
+    <string name="boolean_off">off</string>
+    <string name="boolean_true">true</string>
+    <string name="boolean_false">false</string>
+    <string name="button_activate">Activate</string>
+    <string name="button_activated">Activated</string>
+    <string name="button_buy">Buy</string>
+	<string name="button_cancel">Cancel</string>
+    <string name="button_check">Check</string>
+   	<string name="button_clear">Clear</string>
+   	<string name="button_contact">Contact</string>
+   	<string name="button_delete">Delete</string>
+    <string name="button_donate">Donate</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_facebook">Facebook</string>
+    <string name="button_market">Google Play</string>
+	<string name="button_no">No</string>
+    <string name="button_ok">OK</string>
+    <string name="button_reload">Reload</string>
+	<string name="button_restore">Restore</string>
+	<string name="button_save">Save</string>
+	<string name="button_yes">Yes</string>
+	<string name="category_backup">Backup</string>
+    <string name="category_batch">Batch</string>
+    <string name="category_filter">Filter</string>
+    <string name="category_open">Open</string>
+    <string name="default_string">default</string>
+	<string name="edit">edit</string>
+	<string name="empty"></string>
+	<string name="error">error</string>
+	<string name="help">help</string>
+	<string name="information">information</string>
+	<string name="more">more</string>
+	<string name="not_set">not set</string>
+	<string name="state_connected">connected</string>
+    <string name="state_disconnected">disconnected</string>
+
+	<!-- MESSAGES -->
+    <string name="msg_admin_addon_needed">Elixir 2 - Admin add-on is needed to use this feature.</string>
+    <string name="msg_android_2_3_needed">Android 2.3 is needed for this function</string>
+    <string name="msg_android_3_0_needed">Android 3.0 is needed for this function</string>
+    <string name="msg_android_3_1_needed">Android 3.1 is needed for this function</string>
+    <string name="msg_android_4_0_needed">Android 4.0 is needed for this function</string>
+    <string name="msg_android_4_2_needed">Android 4.2 is needed for this function</string>
+    <string name="msg_android_4_3_needed">Android 4.3 is needed for this function</string>
+    <string name="msg_android_4_4_needed">Android 4.4 is needed for this function</string>
+    <string name="msg_android_5_0_needed">Android 5.0 is needed for this function</string>
+    <string name="msg_android_4_0_problem">This function is not available from Android 4.0</string>
+    <string name="msg_android_4_2_problem">This function is not available from Android 4.2</string>
+    <string name="msg_android_4_4_problem">This function is not available from Android 4.4</string>
+    <string name="msg_android_5_0_problem">This function is not available from Android 5.0</string>
+    <string name="msg_app_with_usage_access">Enable \"Security / Apps with usage access\" to use this feature</string>
+    <string name="msg_are_you_sure">Are you sure?</string>
+    <string name="msg_camera_needed">Camera is needed to use this feature</string>
+    <string name="msg_device_admin_needed">Device administrator permission is needed to use this feature.</string>
+    <string name="msg_elixir_needed">Elixir 2 is needed to use this feature</string>
+    <string name="msg_external_storage_not_removable">External storage is not removable.</string>
+    <string name="msg_grant_permission_needed">The following permission is needed to use this feature: %1$s\nIt can be granted only on a rooted device.</string>
+    <string name="msg_network_provider_not_enabled">Network provider is not enabled</string>
+   	<string name="msg_no_bluetooth_adapter">No Bluetooth adapter</string>
+   	<string name="msg_no_external_storage">External storage is not available</string>
+    <string name="msg_no_internet">No internet connection</string>
+    <string name="msg_no_nfc_adapter">No NFC adapter</string>
+    <string name="msg_notification_access_needed_4_3">Enable notification access at Settings / Security / Notification access</string>
+    <string name="msg_notification_access_needed_5_0">Enable notification access at Sound &amp; notification / Notification access</string>
+    <string name="msg_permission_denied_system">No permission to use this feature.\nYou can use the Elixir 2 - System add-on on a rooted device.</string>
+    <string name="msg_personal_addon_needed">Elixir 2 - Personal add-on is needed to use this feature.</string>
+	<string name="msg_provider_not_enabled">Provider is not enabled: %1$s</string>
+    <string name="msg_save_changes">Do you want to save changes?</string>
+	<string name="msg_sensor_not_available">Sensor is not available</string>
+    <string name="msg_system_needed">Elixir 2 - System add-on is needed to use this feature. This add-on can be used only on a rooted device.</string>
+    <string name="msg_telephony_needed">Telephony is needed for this feature</string>
+	<string name="msg_unsuccessful_operation">Unsuccessful operation</string>
+    <string name="msg_vibrator_needed">Vibrator is needed for this feature</string>
+		
+	<!-- PARAMETER -->
+    <string name="param_emailaccount_server_imap">Other IMAP</string>
+    <string name="param_emailaccount_server_smtp">Other SMTP</string>
+    <string name="param_emailaccount_gmail_other">set e-mail address</string>
+    <string name="param_emailaccount_label_email">E-mail:</string>
+    <string name="param_emailaccount_label_email_login">use e-mail as username</string>
+    <string name="param_emailaccount_label_password">Password:</string>
+    <string name="param_emailaccount_label_password_show">show password</string>
+    <string name="param_emailaccount_label_server">Server:</string>
+    <string name="param_emailaccount_label_port">Port:</string>
+    <string name="param_emailaccount_label_folder">Folder:</string>
+    <string name="param_emailaccount_select_folder">Select a folder</string>
+    <string name="param_emailaccount_check_ok">Settings are OK</string>
+    <string name="param_emailaccount_check_error_authentication">Authentication error</string>
+    <string name="param_emailaccount_check_error_network">Network error</string>
+    <string name="param_emailaccount_check_error_other">Invalid settings</string>
+
+	<string name="slottype_important">Important!</string>
+	
+	<string name="toggle_flash_important">You should install <b>TeslaLED Flashlight</b> to use flash.</string>	
+</resources>

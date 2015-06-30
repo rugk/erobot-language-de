@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- activity:collectgsmcells -->
+    <string name="collectgsmcells_title">Collecting cells</string>
+    <string name="collectgsmcells_text">Wait for collecting cells for a few minutes and click on one of the buttons if they are ready.</string>
+    <string name="collectgsmcells_button_add">Add cells</string>
+    <string name="collectgsmcells_button_set">Set cells</string>
+	<string name="collectgsmcells_confirmation_override">It will overwrite current cells!</string>
+    
+    <!-- activity:locations -->
+	<string name="locations">locations</string>
+	<string name="locations_title">Locations</string>
+    <string name="locations_header1">How to use</string>
+    <string name="locations_text1">Create a location and set <b>mobile cells</b> and <b>geo coordinates</b> of that location. Locations are need if you would like to do something when you <b>enter or exit</b> a location. Mobile cells are needed if you would like to detect location changes using <b>mobile network cells</b> and geo coordinates are needed if you would like to use <b>network or gps providers</b>.</string>
+    <string name="locations_new_location">New location</string>
+	<string name="locations_location_name">Location name</string>
+    <string name="locations_view_location">View location</string>
+    <string name="locations_view_location_error">Cannot get cell position</string>
+  	<string name="locations_delete_location">Delete location</string>
+	<string name="locations_rename_location">Rename location</string>
+	<string name="locations_rename_already_exists">Location already exists with this name</string>
+	<string name="locations_set_ingored_location">Set as ignored</string>
+  	<string name="locations_set_normal_location">Set as normal</string>
+	<string name="locations_saved">Location is saved</string>
+	<string name="locations_gsmcells">GSM cells</string>
+	<string name="locations_no_gsmcells">Click on + to add new gsm cells</string>
+	<string name="locations_cdmacells">CDMA cells</string>
+	<string name="locations_no_cdmacells">Click on + to add new cdma cells</string>
+	<string name="locations_cdmacell_base_station_id">base station id</string>
+	<string name="locations_cdmacell_network_id">network id</string>
+	<string name="locations_cdmacell_system_id">system id</string>
+	<string name="locations_gsmcell_mcc">mobile country code</string>
+	<string name="locations_gsmcell_mnc">mobile network code</string>
+	<string name="locations_gsmcell_cid">cell id</string>
+	<string name="locations_gsmcell_lac">location area code</string>
+	<string name="locations_coords">Coordinates</string>
+	<string name="locations_no_coords">Click on + to add new coordinates</string>
+	<string name="locations_coord">coordinate</string>
+	<string name="locations_coord_latitude">latitude</string>
+	<string name="locations_coord_latitude_short">lat</string>
+	<string name="locations_coord_longitude">longitude</string>
+	<string name="locations_coord_longitude_short">lon</string>
+	<string name="locations_coord_accuracy">accuracy</string>
+	<string name="locations_coord_accuracy_help">location accuracy in meters</string>
+	<string name="locations_wifinetworks">Wi-Fi networks</string>
+	<string name="locations_no_wifinetworks">Click on + to add new wi-fi networks</string>
+	<string name="locations_add_manually">Add manually &#8230;</string>
+	<string name="locations_collect_data">Collect data &#8230;</string>
+	<string name="locations_collect_data_background">Collect data in the background &#8230;</string>
+	<string name="locations_delete_cell">Delete cell</string>
+  	<string name="locations_delete_every_cell">Delete every cell</string>
+	<string name="locations_delete_coordinate">Delete coordinate</string>
+	<string name="locations_delete_wifi_network">Delete Wi-Fi network</string>
+	<string name="locations_current_location">Current location</string>
+	<string name="locations_unknown_location">Unknown location</string>
+	<string name="locations_collecting_interval_title">I stay here for &#8230;</string>
+	<string name="locations_collecting_interval_minutes">at least %1$d minutes</string>
+	<string name="locations_collecting_interval_hours">at least %1$d hours</string>
+	<string name="locations_collecting_started">Collecting cells started in the background</string>
+			
+	<!-- activity:pickgeocoord -->
+    <string name="pickgeocoord_button_gps_enabled">GPS</string>
+    <string name="pickgeocoord_button_gps_disabled">No GPS</string>
+</resources>
