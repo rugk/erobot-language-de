@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Error messages -->
-    <string name="changelog_internal_error_parsing">Error while parsing file</string>
+    <string name="changelog_internal_error_parsing">Fehler beim Parsen der Datei</string>
 
 
     <!-- String for Version Header.
