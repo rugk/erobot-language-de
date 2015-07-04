@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="msg_activity_not_found">Aktivität nicht gefunden</string>
-	<string name="msg_permission_denied">Nicht genügend Berechtigungen um diese Funktion zu nutzen</string>
+	<string name="msg_permission_denied">Nicht genügend Berechtigungen, um diese Funktion zu nutzen</string>
 	<string name="msg_please_wait">Bitte warten, &#8230;</string>
 </resources>
