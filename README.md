@@ -1,4 +1,7 @@
 # E-Robot German language files
+
+![submitted](https://img.shields.io/badge/submitted-not yet-red.svg?style=flat)
+
 This repo contains the German language files of the Android app [E-Robot] (https://play.google.com/store/apps/details?id=com.bartat.android.robot).
 I created this to keep track of all changes in the files and to monitor my progress. But if you want you can of course also report translation errors or other things here - or change them by yourself by creating a pull request.
 
