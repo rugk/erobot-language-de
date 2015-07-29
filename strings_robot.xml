@@ -2,233 +2,233 @@
 <resources>
     <string name="app_name">E-Robot</string>
 
-    <string name="do_filter_by_name">Filter by name</string>
+    <string name="do_filter_by_name">Nach Namen filtern</string>
 
-    <string name="msg_for_donators_text">Pro version is needed to use more than 3 commands simultaneously. You can buy the E-Robot Pro Key application on Google Play to remove this limit and hide ads.</string>
+    <string name="msg_for_donators_text">Die Pro-Version wird benötigt um mehr als 3 Befehle gleichzeitig ausführen zu können. Sie können die E-Robot Pro Key-Anwendung bei Google Play herunterladen, um dieses Limit zu entfernen und Werbung auszublenden.</string>
 
     <!-- activity:about -->
-	<string name="about_title">About</string>
+	<string name="about_title">Über</string>
 	<string name="about_version">Version: %1$s</string>
-	<string name="about_developer">Developer: Tamás Barta</string>
-		
+	<string name="about_developer">Entwickler: Tamás Barta</string>
+
 	<!-- service:accessibility -->
-	<string name="accessibility_availability">Enable accessibility service of E-Robot to use this feature.</string>
-	<string name="accessibility_description">This service makes it possible to handle new notifications as events in E-Robot.</string>
-	
+	<string name="accessibility_availability">Aktivieren Sie den Zugänglichkeitsdienst von E-Robot um diese Funktion zu nutzen.</string>
+	<string name="accessibility_description">Dieser Dienst macht es möglich neue Benachrichtigungen als Events in E-Robot zu verwenden.</string>
+
 	<!-- activity:applications -->
-    <string name="applications_title">Applications</string>
-    <string name="applications_show_system">Show system applications</string>
-    <string name="applications_show_user">Show user applications</string>
-    <string name="applications_show_by_group">Applications by group</string>
-    <string name="applications_invert_selection">Invert selection</string>
-    
+    <string name="applications_title">Anwendungen</string>
+    <string name="applications_show_system">Zeige System-Anwendungen</string>
+    <string name="applications_show_user">Zeige Benutzer-Anwendungen</string>
+    <string name="applications_show_by_group">Anwendungen nach Gruppe</string>
+    <string name="applications_invert_selection">Markierung umkehren</string>
+
    	<!-- activity:backup -->
     <string name="backup_title">Backup</string>
-    <string name="backup_status_nobackup">no backup</string>
+    <string name="backup_status_nobackup">kein Backup</string>
     <string name="backup_button_backup">Backup</string>
-    <string name="backup_button_restore">Restore</string>
-    <string name="backup_button_delete">Delete</string>
-    <string name="backup_button_share">Share</string>
-    <string name="backup_share_internal">Share current</string>
-    <string name="backup_share_external">Share backup</string>
-    <string name="backup_done_backup">%1$d backup(s) saved</string>
-    <string name="backup_done_restore">%1$d backup(s) restored</string>
-    <string name="backup_done_delete">%1$d backup(s) deleted</string>
+    <string name="backup_button_restore">Wiederherstellen</string>
+    <string name="backup_button_delete">Entfernen</string>
+    <string name="backup_button_share">Teilen</string>
+    <string name="backup_share_internal">Aktuelles teilen</string>
+    <string name="backup_share_external">Backup teilen</string>
+    <string name="backup_done_backup">%1$d Backup(s) gespeichert</string>
+    <string name="backup_done_restore">%1$d Backup(s) wiederhergestellt</string>
+    <string name="backup_done_delete">%1$d Backup(s) entfernt</string>
 
     <!-- activity:barcode -->
     <string name="barcode_title">Barcode</string>
-    
+
 	<!-- activity:changelog -->
 	<string name="changelog_title">Changelog</string>
-    
+
     <!-- activity:command confirmation -->
-    <string name="commandconfirm_title">Confirmation</string>
-    <string name="commandconfirm_run_now">Run</string>
-    <string name="commandconfirm_run_later">Later</string>
-    <string name="commandconfirm_item_later">%1$s minutes later</string>
-    <string name="commandconfirm_execute_in">Execute <b>%1$s</b> in <b>%2$d</b> seconds &#8230;</string>
-    <string name="commandconfirm_executing">Executing <b>%1$s</b> &#8230;</string>
-    <string name="commandconfirm_history">Confirmation for <b>%1$d</b> seconds &#8230;</string>
-    
+    <string name="commandconfirm_title">Bestätigung</string>
+    <string name="commandconfirm_run_now">Ausführen</string>
+    <string name="commandconfirm_run_later">Später</string>
+    <string name="commandconfirm_item_later">%1$s Minuten später</string>
+    <string name="commandconfirm_execute_in">Führe <b>%1$s</b> in <b>%2$d</b> Sekunden aus &#8230;</string>
+    <string name="commandconfirm_executing">Führt <b>%1$s</b> aus &#8230;</string>
+    <string name="commandconfirm_history">Bestätigung nach <b>%1$d</b> Sekunden &#8230;</string>
+
    	<!-- activity:commands -->
-    <string name="commands">Commands</string>
-    <string name="commands_title">Commands</string>
-    <string name="commands_header1">How to use</string>
-    <string name="commands_text1">Give a <b>command</b> to the robot. Tell him the <b>actions</b> to do when one of the <b>events happens</b> and all the <b>conditions are met</b>.</string>
-    <string name="commands_new_command">New command</string>
-	<string name="commands_command_name">Command name</string>
-	<string name="commands_execute_command">Execute command</string>
-    <string name="commands_delete_command">Delete command</string>
-	<string name="commands_rename_command">Rename command</string>
-	<string name="commands_rename_already_exists">Command already exists with this name</string>
-	<string name="commands_delete_event">Delete event</string>
-	<string name="commands_delete_action">Delete action</string>
-	<string name="commands_no_actions">Click on + to add a new action</string>
-	<string name="commands_no_events">Click on + to add a new event</string>
-	<string name="commands_service_started">Service started</string>
-	<string name="commands_service_stopped">Service stopped</string>
-	<string name="commands_saved">Command is saved</string>
-    <string name="commands_category_command">Command</string>
-    <string name="commands_move_up">Move up</string>
-    <string name="commands_move_down">Move down</string>
-    <string name="commands_settings">Settings</string>
-    <string name="commands_confirmation">Confirmation:</string>
-    <string name="commands_confirmation_no">no confirmation</string>
-    <string name="commands_confirmation_timeout">execute after %1$s seconds timeout</string>
-    <string name="commands_confirmation_timeout_inverse">cancel after %1$s seconds timeout</string>
-   	<string name="commands_set_condition">Set condition</string>
-   	<string name="commands_change_condition">Change condition</string>
-	<string name="commands_remove_condition">Remove condition</string>
-    <string name="commands_disable">Disable</string>
-	<string name="commands_enable">Enable</string>
-	<string name="commands_enabled">Enabled:</string>
-	<string name="commands_notification">Notification:</string>
-	<string name="commands_copy_current">Copy current command</string>
-	<string name="commands_add_new">Add new</string>
-	<string name="commands_add_new_action">Add new action</string>
-	<string name="commands_add_new_event">Add new event</string>
-	<string name="commands_action_execution_error">Action execution failed</string>
-	<string name="commands_command_execution_error">Command execution failed</string>
-	<string name="commands_display_availability">Why not available?</string>
-		
+    <string name="commands">Befehle</string>
+    <string name="commands_title">Befehle</string>
+    <string name="commands_header1">Anleitung</string>
+    <string name="commands_text1">Geben Sie dem Roboter einen <b>Befehl</b>. Erklären Sie ihm die <b>Aktionen</b>, die er tun soll, wenn ein <b>Event passiert</b> und alle <b>Bedingungen erfüllt sind</b>.</string>
+    <string name="commands_new_command">Neuer Befehl</string>
+	<string name="commands_command_name">Befehlsname</string>
+	<string name="commands_execute_command">Befehl ausführen</string>
+    <string name="commands_delete_command">Befehl entfernen</string>
+	<string name="commands_rename_command">Befehl umbenennen</string>
+	<string name="commands_rename_already_exists">Ein Befehl mit diesem Name existiert bereits</string>
+	<string name="commands_delete_event">Event entfernen</string>
+	<string name="commands_delete_action">Aktion entfernen</string>
+	<string name="commands_no_actions">Klicken Sie auf + um eine neue Aktion hinzuzufügen</string>
+	<string name="commands_no_events">Klicken Sie auf + um ein neues Event hinzuzufügen</string>
+	<string name="commands_service_started">Dienst gestartet</string>
+	<string name="commands_service_stopped">Dienst angehalten</string>
+	<string name="commands_saved">Befehl ist gespeichert</string>
+    <string name="commands_category_command">Befehl</string>
+    <string name="commands_move_up">Nach oben verschieben</string>
+    <string name="commands_move_down">Nach unten verschieben</string>
+    <string name="commands_settings">Einstellungen</string>
+    <string name="commands_confirmation">Bestätigung:</string>
+    <string name="commands_confirmation_no">Keine Bestätigung</string>
+    <string name="commands_confirmation_timeout">Ausführen nach %1$s Sekunden Timeout</string>
+    <string name="commands_confirmation_timeout_inverse">Abbrechen nach %1$s Sekunden Timeout</string>
+   	<string name="commands_set_condition">Bedingung setzen</string>
+   	<string name="commands_change_condition">Bedingung ändern</string>
+	<string name="commands_remove_condition">Bedingung entfernen</string>
+    <string name="commands_disable">Deaktivieren</string>
+	<string name="commands_enable">Aktivieren</string>
+	<string name="commands_enabled">Aktiviert:</string>
+	<string name="commands_notification">Benachrichtigung:</string>
+	<string name="commands_copy_current">Aktuellen Befehl kopieren</string>
+	<string name="commands_add_new">Neuen hinzufügen</string>
+	<string name="commands_add_new_action">Neue Aktion hinzufügen</string>
+	<string name="commands_add_new_event">Neues Event hinzufügen</string>
+	<string name="commands_action_execution_error">Ausführung der Aktion fehlgeschlagen</string>
+	<string name="commands_command_execution_error">Ausführung des Befehls fehlgeschlagen</string>
+	<string name="commands_display_availability">Warum nicht verfügbar?</string>
+
 	<!-- activity:debug -->
 	<string name="debug_title">Debug</string>
-	<string name="debug_clear_debug">Clear debug information</string>
-	<string name="debug_reload_debug">Reload debug information</string>
-	<string name="debug_share_debug">Share debug information</string>
-									
+	<string name="debug_clear_debug">Debug-Informationen löschen</string>
+	<string name="debug_reload_debug">Debug-Informationen neu laden</string>
+	<string name="debug_share_debug">Debug-Informationen teilen</string>
+
     <!-- ACTIVITY:donation -->
-    <string name="donation_title">Pro Key</string>
-    <string name="donation_header0">You can support development by</string>
-    <string name="donation_text0">buying <b>Pro Key</b> on <i>Google Play</i>. If you buy this application then <b>ads will be removed</b> and <b>other pro features will be available</b> too.</string>
-    <string name="donation_header1">If you like my application you can</string>
-    <string name="donation_text1">give <b>5 stars</b> or write a <b>nice review</b> on <i>Google Play</i>. You can join my <b>Facebook page</b> too.</string>
-    <string name="donation_header2">or</string>
-    <string name="donation_text2">you can <b>send donation</b> to the <i>bartatamas@gmail.com</i> PayPal account. If you do so then I will send you an activation code to <b>activate donator features</b>.</string>
-    <string name="donation_hint_code">activation code</string>
-    <string name="donation_hint_email">e-mail address</string>
-    <string name="donation_enter_code">Enter code</string>
-    <string name="donation_enter_code_error">Network problem, try again later</string>
-    <string name="donation_enter_code_unsuccess">Invalid code</string>
-    <string name="donation_enter_code_success">Code accepted</string>
+    <string name="donation_title">Pro-Key</string>
+    <string name="donation_header0">Sie können die Entwicklung der App unterstützen, indem Sie</string>
+    <string name="donation_text0">den <b>Pro Key</b> bei <i>Google Play</i> kaufen. Wenn Sie diese Anwendung kaufen wird <b>die Werbung entfernt</b> und <b>andere Pro-Features werden auch verfügbar sein</b>.</string>
+    <string name="donation_header1">Wenn Sie diese ANwendung mögen könne Sie</string>
+    <string name="donation_text1">Ihr <b>5 Sterne</b> geben oder eine <b>nette Bewertung</b> bei <i>Google Play</i> schreiben. Sie können ebenfalls meiner <b>Facebook-Seite</b> beitreten.</string>
+    <string name="donation_header2">oder</string>
+    <string name="donation_text2">sie <b>senden eine Spende</b> an den PayPal-Account <i>bartatamas@gmail.com</i>. Wenn Sie dies machen werde ich Ihnen einen Aktivierungscode senden, damit Sie die <b>Spender-Features aktivieren können</b>.</string>
+    <string name="donation_hint_code">Aktivierungscode</string>
+    <string name="donation_hint_email">E-Mail-Adresse</string>
+    <string name="donation_enter_code">Code eingeben</string>
+    <string name="donation_enter_code_error">Netzwerkproblem, bitte später nochmal versuchen</string>
+    <string name="donation_enter_code_unsuccess">Ungültiger Code</string>
+    <string name="donation_enter_code_success">Code angenommen</string>
 
    	<!-- activity:examples -->
-	<string name="examples_title">Examples</string>
-	<string name="examples_request_example">Request example</string>
-	<string name="examples_request_example_subject">E-Robot example request</string>
-	<string name="examples_request_example_content">Description of the example:\n\n</string>
-	<string name="examples_send_example">Send example</string>
-	<string name="examples_send_example_subject">E-Robot example</string>
-	<string name="examples_select_commands">Commands to send</string>
-	<string name="examples_show_description">Show description</string>
-	<string name="examples_download_example">Download example</string>
-    
+	<string name="examples_title">Beispiele</string>
+	<string name="examples_request_example">Beispiel anfordern</string>
+	<string name="examples_request_example_subject">E-Robot example request</string> 	<!-- do not translate this -->
+	<string name="examples_request_example_content">Description of the example:\n\n</string> 	<!-- do not translate this -->
+	<string name="examples_send_example">Beispiel senden</string>
+	<string name="examples_send_example_subject">E-Robot-Beispiel</string>
+	<string name="examples_select_commands">Befehle zum Senden</string>
+	<string name="examples_show_description">Beschreibung anzeigen</string>
+	<string name="examples_download_example">Beispiel herunterladen</string>
+
    	<!-- activity:documentation -->
-	<string name="documentation_title">Documentation</string>
-										
+	<string name="documentation_title">Dokumentation</string>
+
 	<!-- activity:history -->
-	<string name="history_title">History</string>
-	<string name="history_clear_history">Clear history</string>
-	<string name="history_reload_history">Reload history</string>
-	<string name="history_share_history">Share history</string>
-	<string name="history_add_to_location">Add to location</string>
-	<string name="history_add_to_location_ingored">Add to location as ignored</string>
-	<string name="history_remove_from_location">Remove from location</string>
-	<string name="history_view_location">View location</string>
-	
+	<string name="history_title">Verlauf</string>
+	<string name="history_clear_history">Verlauf leeren</string>
+	<string name="history_reload_history">Verlauf neu laden</string>
+	<string name="history_share_history">Verlauf teilen</string>
+	<string name="history_add_to_location">Zu Ort hinzufügen</string>
+	<string name="history_add_to_location_ingored">Zu Ort als ignoriert hinzufügen</string>
+	<string name="history_remove_from_location">Von Ort entfernen</string>
+	<string name="history_view_location">Ort anzeigen</string>
+
 	<!-- groups -->
-	<string name="group_3rd_party">3rd party</string>
-	<string name="group_constants">constants</string>
-	<string name="group_control">control</string>
-	<string name="group_accounts_sync">accounts &amp; sync</string>
-    <string name="group_applications">applications</string>
-    <string name="group_audio">audio</string>
-    <string name="group_battery">battery</string>
-    <string name="group_bluetooth_nfc">bluetooth &amp; nfc</string>
-    <string name="group_calendar">calendar</string>
-    <string name="group_camera">camera</string>
-    <string name="group_contact">contact</string>
-    <string name="group_date_time">date &amp; time</string>
-    <string name="group_default">default</string>
-    <string name="group_display">display</string>
-    <string name="group_language_keyboard">language &amp; keyboard</string>
-    <string name="group_location_security">location &amp; security</string>
-	<string name="group_network">network</string>
-    <string name="group_operators">operators</string>
-   	<string name="group_other">other</string>
-    <string name="group_sensors">sensors</string>
-    <string name="group_storage">storage</string>
-    <string name="group_system">system</string>
-    <string name="group_test">test</string>
-    <string name="group_telephony">telephony</string>
-    <string name="group_wifi">wifi</string>
-    <string name="group_usb">usb</string>
-	
-   	<string name="notification_command_executed">Command: %1$s</string>
-   	<string name="notification_last_command">Last command: %1$s</string>
-	<string name="notification_service_is_active">Service is active</string>
+	<string name="group_3rd_party">Drittanbieter</string>
+	<string name="group_constants">Konstanten</string>
+	<string name="group_control">Steuerung</string>
+	<string name="group_accounts_sync">Accunt &amp; Sync</string>
+    <string name="group_applications">Anwendungen</string>
+    <string name="group_audio">Audio</string>
+    <string name="group_battery">Battery</string>
+    <string name="group_bluetooth_nfc">Bluetooth &amp; NFC</string>
+    <string name="group_calendar">Kalender</string>
+    <string name="group_camera">Kamera</string>
+    <string name="group_contact">Kontakte</string>
+    <string name="group_date_time">Datum &amp; Uhrzeit</string>
+    <string name="group_default">Standard</string>
+    <string name="group_display">Display</string>
+    <string name="group_language_keyboard">Sprache &amp; Keyboard</string>
+    <string name="group_location_security">Ort &amp; Sicherheit</string>
+	<string name="group_network">Netzwerk</string>
+    <string name="group_operators">Operatoren</string>
+   	<string name="group_other">Anderes</string>
+    <string name="group_sensors">Sensoren</string>
+    <string name="group_storage">Speicher</string>
+    <string name="group_system">System</string>
+    <string name="group_test">Test</string>
+    <string name="group_telephony">Telephonie</string>
+    <string name="group_wifi">WLAN</string>
+    <string name="group_usb">USB</string>
+
+   	<string name="notification_command_executed">Befehl: %1$s</string>
+   	<string name="notification_last_command">Letzter Befehl: %1$s</string>
+	<string name="notification_service_is_active">Dienst ist aktiv</string>
 
 	<!-- activity:performance -->
 	<string name="performance_title">Performance</string>
-	<string name="performance_clear_stat">Clear statistics</string>
-	<string name="performance_reload_stat">Reload statistics</string>
+	<string name="performance_clear_stat">Statistiken leeren</string>
+	<string name="performance_reload_stat">Statistiken neu laden</string>
     <string name="performance_start">Start:</string>
-    <string name="performance_duration">Duration:</string>
-    <string name="performance_count">Count:</string>
-    <string name="performance_percent">Percent:</string>
-    <string name="performance_total">Total:</string>
-    <string name="performance_avg">Average:</string>
-    <string name="performance_executed">Executed:</string>
-    			    	    
-  	<string name="pick_application_title">Select an application</string>
-  	<string name="pick_geocoord_title">Select a location</string>
-  	
-   	<string name="settings_title">Settings</string>
-   	<string name="settings_application_focus_interval">Focus checking interval</string>
-   	<string name="settings_application_running_interval">Running checking interval</string>
-   	<string name="settings_category_applications">Applications</string>
-   	<string name="settings_category_global">Global settings</string>
-   	<string name="settings_category_locations">Locations</string>
-   	<string name="settings_category_service">Service</string>
-	<string name="settings_notification_enabled">Notification is enabled</string>
-	<string name="settings_notification_enabled_summary">can be turned off only if foreground service is disabled</string>
-	<string name="settings_notification_open">Notification opens</string>
-	<string name="settings_notification_priority">Notification priority</string>
-	<string name="settings_service_enabled">Robot service is enabled</string>
-	<string name="settings_service_is_enabled">Service is enabled</string>
-	<string name="settings_service_is_disabled">Service is disabled</string>
-	<string name="settings_service_foreground">Foreground service</string>
-	<string name="settings_service_foreground_summary">won\'t be killed on low memory</string>
-	<string name="settings_language">Language</string>
-	<string name="settings_location_daytime_start">Daytime start</string>
-  	<string name="settings_location_daytime_stop">Daytime stop</string>
-   	<string name="settings_location_daytime_polling_interval">Daytime polling interval</string>
-   	<string name="settings_location_nighttime_polling_interval">Nighttime polling interval</string>
-   	<string name="settings_location_daytime_wifiscan_interval">Daytime Wi-Fi scan interval</string>
-   	<string name="settings_location_nighttime_wifiscan_interval">Nighttime Wi-Fi scan interval</string>
-	<string name="settings_location_use_cells">Use cells</string>
-	<string name="settings_location_use_gps">Use gps provider</string>
-   	<string name="settings_location_use_network">Use network provider</string>
-	<string name="settings_location_use_passive">Use passive provider</string>
-	<string name="settings_location_use_wifi">Use Wi-Fi networks</string>
-	<string name="settings_location_min_time">Min time in seconds</string>
-	<string name="settings_location_min_distance">Min distance in meters</string>
-	<string name="settings_rooted">Rooted</string>
-	<string name="settings_rooted_autodetect">auto detected</string>
-	<string name="settings_unit_temperature">Temperature</string>
-							
+    <string name="performance_duration">Dauer:</string>
+    <string name="performance_count">Anzahl:</string>
+    <string name="performance_percent">Prozent:</string>
+    <string name="performance_total">Insgesamt:</string>
+    <string name="performance_avg">Durchschnittlich:</string>
+    <string name="performance_executed">Ausgeführt:</string>
+
+  	<string name="pick_application_title">Anwendung auswählen</string>
+  	<string name="pick_geocoord_title">Ort auswählen</string>
+
+   	<string name="settings_title">Einstellungen</string>
+   	<string name="settings_application_focus_interval">Fokus-Überprüfungsintervall</string>
+   	<string name="settings_application_running_interval">Ausführungsüberprüfungsintervall</string> <!-- Sounds a bit strange, but well...  -->
+   	<string name="settings_category_applications">Anwendungen</string>
+   	<string name="settings_category_global">Globale Einstellungen</string>
+   	<string name="settings_category_locations">Orte</string>
+   	<string name="settings_category_service">Dienst</string>
+	<string name="settings_notification_enabled">Benachrichtigungen sind aktiviert</string>
+	<string name="settings_notification_enabled_summary">kann nur ausgeschalten werden, wenn der Vordergrund-Dienst deaktiviert ist</string>
+	<string name="settings_notification_open">Benachrichtigungen öffnet</string>
+	<string name="settings_notification_priority">Benachrichtigungspriorität</string>
+	<string name="settings_service_enabled">Robot-Dienst ist aktiviert</string>
+	<string name="settings_service_is_enabled">Dienst ist aktiviert</string>
+	<string name="settings_service_is_disabled">Dienst ist deaktiviert</string>
+	<string name="settings_service_foreground">Vordergrund-Dienst</string>
+	<string name="settings_service_foreground_summary">wird nicht bei wenig verfügbaren Arbeitsspeicher beendet</string>
+	<string name="settings_language">Sprache</string>
+	<string name="settings_location_daytime_start">Anfang des Tages</string>
+  	<string name="settings_location_daytime_stop">Ende des Tages</string>
+   	<string name="settings_location_daytime_polling_interval">Polling-Intervall am Tag</string>
+   	<string name="settings_location_nighttime_polling_interval">Polling-Intervall in der Nacht</string>
+   	<string name="settings_location_daytime_wifiscan_interval">WLAN-Scann-Intervall am Tag</string>
+   	<string name="settings_location_nighttime_wifiscan_interval">WLAN-Scann-Intervall in der Nacht</string>
+	<string name="settings_location_use_cells">Funkzellen benutzen</string>
+	<string name="settings_location_use_gps">GPS-Provider benutzen</string>
+   	<string name="settings_location_use_network">Nutze Netzwerkdienst</string>
+	<string name="settings_location_use_passive">Nutze passive Provider</string>
+	<string name="settings_location_use_wifi">Nutze WLAN-Netzwerke</string>
+	<string name="settings_location_min_time">Min. Zeit in Sekunden</string>
+	<string name="settings_location_min_distance">Min. Entfernung in Metern</string>
+	<string name="settings_rooted">Gerooted</string>
+	<string name="settings_rooted_autodetect">automatische Erkennung</string>
+	<string name="settings_unit_temperature">Temperatur</string>
+
 	<!-- ACTIVITY:shortcut -->
-    <string name="shortcut_title">Select a shortcut</string>
-    <string name="shortcut_category_command_groups">Command groups</string>
-    <string name="shortcut_category_commands">Commands</string>
-    <string name="shortcut_category_screens">Screens</string>
-    
+    <string name="shortcut_title">Verknüpfung auswählen</string>
+    <string name="shortcut_category_command_groups">Befehlsgruppen</string>
+    <string name="shortcut_category_commands">Befehle</string>
+    <string name="shortcut_category_screens">Menüpunkte</string>
+
    	<!-- activity:variables -->
-	<string name="variables_title">Variables</string>
-	<string name="variables_delete">Delete variable</string>
-	<string name="variables_change">Change value</string>
-	<string name="variables_convert_to_constant">Convert to constant</string>
-	<string name="variables_new">New variable</string>
-	<string name="variables_variable_name">Variable name</string>
-	<string name="variables_substitution_help">Variables can be used in text parameters this way: Hello ${name}!</string>
+	<string name="variables_title">Variablen</string>
+	<string name="variables_delete">Variable entfernen</string>
+	<string name="variables_change">Variable ändern</string>
+	<string name="variables_convert_to_constant">Zu Konstante konvertieren</string>
+	<string name="variables_new">Neue Variable</string>
+	<string name="variables_variable_name">Variablenname</string>
+	<string name="variables_substitution_help">Variablen können in Text-Parametern auf diese Art genutzt werden: Hallo ${name}!</string>
 </resources>
