@@ -53,10 +53,10 @@
     <string name="msg_android_4_3_needed">Android 4.3 wird für diese Funktion benötigt</string>
     <string name="msg_android_4_4_needed">Android 4.4 wird für diese Funktion benötigt</string>
     <string name="msg_android_5_0_needed">Android 5.0 wird für diese Funktion benötigt</string>
-    <string name="msg_android_4_0_problem">Diese Funktion ist nicht verfügbar bei Android 4.0</string>
-    <string name="msg_android_4_2_problem">Diese Funktion ist nicht verfügbar bei Android 4.2</string>
-    <string name="msg_android_4_4_problem">Diese Funktion ist nicht verfügbar bei Android 4.4</string>
-    <string name="msg_android_5_0_problem">Diese Funktion ist nicht verfügbar bei Android 5.0</string>
+    <string name="msg_android_4_0_problem">Diese Funktion ist nicht verfügbar ab Android 4.0</string>
+    <string name="msg_android_4_2_problem">Diese Funktion ist nicht verfügbar ab Android 4.2</string>
+    <string name="msg_android_4_4_problem">Diese Funktion ist nicht verfügbar ab Android 4.4</string>
+    <string name="msg_android_5_0_problem">Diese Funktion ist nicht verfügbar ab Android 5.0</string>
     <string name="msg_app_with_usage_access">Aktivieren Sie \"Sicherheit -> Apps mit Zugriff auf Nutzungsdaten\" um diese Funktion nutzen zu können.</string>
     <string name="msg_are_you_sure">Sind Sie sicher?</string>
     <string name="msg_camera_needed">Eine Kamera wird für diese Funktion benötigt</string>
