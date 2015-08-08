@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="expression_title">%1$s expression</string>
+	<string name="expression_title">%1$s Ausdruck</string>
 
-	<string name="expression_shortcuts">variable expressions</string>
-	
-	<string name="expression_type_constant_boolean">Logical value</string>
-	<string name="expression_type_constant_boolean_help">logical true or false value</string>
-	<string name="expression_type_constant_double">Decimal number</string>
-	<string name="expression_type_constant_double_help">decimal number, for example 3.14</string>
-	<string name="expression_type_constant_file">File path value</string>
-	<string name="expression_type_constant_file_help">file path value, for example \"/sdcard/readme.txt\"</string>
-	<string name="expression_type_constant_integer">Integer number</string>
-	<string name="expression_type_constant_integer_help">integer number, for example 42</string>
-	<string name="expression_type_constant_null">No expression</string>
-	<string name="expression_type_constant_null_help">the expression will be empty</string>
-	<string name="expression_type_constant_string">Text value</string>
-	<string name="expression_type_constant_string_help">text value, for example \"android\"</string>
-	<string name="expression_type_constant_timestamp">Timestamp value</string>
-	<string name="expression_type_constant_timestamp_help">timestamp, for example \"2014.01.01 18:30\"</string>
-		
-	<string name="expression_type_operator_add">Add operator</string>
-	<string name="expression_type_operator_add_help">summarizes the number parameters, for example: 1 + 2.0 = 3</string>
-	<string name="expression_type_operator_division">Division operator</string>
-	<string name="expression_type_operator_division_help">calculates the division, for example: 3 / 2 = 1.5</string>
-	<string name="expression_type_operator_element_at">Element at operator</string>
-	<string name="expression_type_operator_element_at_help">returns the specified element of a collection, for example: [1, 3] element at 2 is 3</string>
-	<string name="expression_type_operator_element_at_text">%1$s element at %2$s</string>
-	<string name="expression_type_operator_modulo">Modulo operator</string>
-	<string name="expression_type_operator_modulo_help">calculates the modulo, for example: 5 % 3 = 2</string>
-	<string name="expression_type_operator_multiply">Multiply operator</string>
-	<string name="expression_type_operator_multiply_help">multiplies the number parameters, for example: 1 * 2.0 = 2.0</string>
-	<string name="expression_type_operator_not">Not operator</string>
-	<string name="expression_type_operator_not_text">not</string>
-	<string name="expression_type_operator_not_help">true if the parameter is false, false if the parameter is true</string>
-	<string name="expression_type_operator_and">And operator</string>
-	<string name="expression_type_operator_and_text">and</string>
-	<string name="expression_type_operator_and_help">true if every parameter is true, for example: day of month is 13 and day of week is friday</string>
-	<string name="expression_type_operator_or">Or operator</string>
-	<string name="expression_type_operator_or_text">or</string>
-	<string name="expression_type_operator_or_help">true if one of the parameters is true, for example: day of week is saturday or day of week is sunday</string>
-	<string name="expression_type_operator_equals">Equals operator</string>
-	<string name="expression_type_operator_equals_text">equals</string>
-	<string name="expression_type_operator_equals_help">true if the parameters are equal, for example: 1 = 1.0, de 1 != 2</string>
-	<string name="expression_type_operator_if_then_else">If-then-else operator</string>
-	<string name="expression_type_operator_if_then_else_text">if %1$s then %2$s else %3$s</string>
-	<string name="expression_type_operator_if_then_else_help">returns first expression if condition is true otherwise returns the second one</string>
-	<string name="expression_type_operator_concatenation">Concatenation operator</string>
-	<string name="expression_type_operator_concatenation_help">concatenates the parameters as text, for example: \"age is: \" + 18 = \"age is: 18\"</string>
-	<string name="expression_type_operator_length">Length operator</string>
-	<string name="expression_type_operator_length_help">returns the length of the specified text, for example: length of \"android\" is 7</string>
-	<string name="expression_type_operator_length_text">length of %1$s</string>
-	<string name="expression_type_operator_match">Match text parts operator</string>
-	<string name="expression_type_operator_match_help">matches and returns patterns in the text, for example: \"(\\d+).(\\d+)\" in \"13.31\" is [13, 21]</string>
-	<string name="expression_type_operator_match_text">match %2$s in %1$s</string>
-	<string name="expression_type_operator_matches">Match text operator</string>
-	<string name="expression_type_operator_matches_help">determines if pattern matches the text, for example: \"\\d+.\\d+\" matches \"13.31\"</string>
-	<string name="expression_type_operator_matches_text">%2$s matches %1$s</string>
-	<string name="expression_type_operator_text_index_of">Text part index operator</string>
-	<string name="expression_type_operator_text_index_of_help">returns the index of the specified text in the source text or 0 if not found, for example: index of \"oid\" in \"android\" is 5</string>
-	<string name="expression_type_operator_text_index_of_text">index of %2$s in %1$s</string>
+	<string name="expression_shortcuts">veränderliche Ausdrücke</string>
+
+	<string name="expression_type_constant_boolean">Logischer Wert</string>
+	<string name="expression_type_constant_boolean_help">logischer \"wahr\" oder \"falsch\"-Wert</string>
+	<string name="expression_type_constant_double">Dezimale Zahl</string>
+	<string name="expression_type_constant_double_help">Zahl im Dezimalsystem, beispielsweise 3,14</string>
+	<string name="expression_type_constant_file">Dateipfad-Wert</string>
+	<string name="expression_type_constant_file_help">Dateipfad-Wert, beispielsweise \"/sdcard/readme.txt\"</string>
+	<string name="expression_type_constant_integer">Ganzzahl</string>
+	<string name="expression_type_constant_integer_help">Ganzzahl (Integer), beispielsweise 42</string>
+	<string name="expression_type_constant_null">Kein Ausdruck</string>
+	<string name="expression_type_constant_null_help">dieser Ausdruck wird leer sein</string>
+	<string name="expression_type_constant_string">Text-Wert</string>
+	<string name="expression_type_constant_string_help">Text-Wert, beispielsweise \"android\"</string>
+	<string name="expression_type_constant_timestamp">Zeitstempel-Wert</string>
+	<string name="expression_type_constant_timestamp_help">Zeitstempel (Timestamp), beispielsweise \"2014.01.01 18:30\"</string>
+
+	<string name="expression_type_operator_add">Additionsoperator</string>
+	<string name="expression_type_operator_add_help">addiert Zahlen, beispielsweise: 1 + 2.0 = 3</string>
+	<string name="expression_type_operator_division">Divisionsoperator</string>
+	<string name="expression_type_operator_division_help">Berechnet den Dividenten, beispielsweise: 3 / 2 = 1.5</string>
+	<string name="expression_type_operator_element_at">Element an Operator-Position</string>
+	<string name="expression_type_operator_element_at_help">Gibt das angegebene Element einer Kollektion aus, beispielsweise: [1, 3] Das Element an 2. Position ist 3</string>
+	<string name="expression_type_operator_element_at_text">%1$s. Element ist %2$s</string> <!-- ?? -->
+	<string name="expression_type_operator_modulo">Modulo-Operator</string>
+	<string name="expression_type_operator_modulo_help">Berechnet den Rest einer Division, beispielsweise: 5 % 3 = 2</string>
+	<string name="expression_type_operator_multiply">Multiplikationsoperator</string>
+	<string name="expression_type_operator_multiply_help">Multipliziert die Zahlen, beispielsweise: 1 * 2.0 = 2.0</string>
+	<string name="expression_type_operator_not">Nicht-Operator</string>
+	<string name="expression_type_operator_not_text">nicht</string>
+	<string name="expression_type_operator_not_help">wahr, wenn der Parameter falsch ist; falsch, wenn der Parameter wahr ist</string>
+	<string name="expression_type_operator_and">Und-Operator</string>
+	<string name="expression_type_operator_and_text">und</string>
+	<string name="expression_type_operator_and_help">wahr, wenn jeder Parameter wahr ist, beispielsweise: Monatstag ist 13 und Wochentag ist Freitag</string>
+	<string name="expression_type_operator_or">Oder-Operator</string>
+	<string name="expression_type_operator_or_text">oder</string>
+	<string name="expression_type_operator_or_help">wahr wenn einer der Parameter wahrt ist, beispielsweise: Wochentag ist Samstag oder Wochentag ist Sonntag</string>
+	<string name="expression_type_operator_equals">Ist-Gleich-Operator</string>
+	<string name="expression_type_operator_equals_text">ist gleich</string>
+	<string name="expression_type_operator_equals_help">wahr, wenn die Werte gleich sind, beispielsweise: 1 = 1.0</string>
+	<string name="expression_type_operator_if_then_else">Wenn-dann-sonst-Operator</string>
+	<string name="expression_type_operator_if_then_else_text">Wenn %1$s dann %2$s sonst %3$s</string>
+	<string name="expression_type_operator_if_then_else_help">Gibt den ersten AUsdruck zurück wenn die Bedingung wahr ist, andernfalls wird der zweite zurückgegeben</string>
+	<string name="expression_type_operator_concatenation">Verkettungsoperator</string>
+	<string name="expression_type_operator_concatenation_help">Verbindet die Parameter als Text, beispielsweise: \"Alter ist: \" + 18 = \"Alter ist: 18\"</string>
+	<string name="expression_type_operator_length">Längen-Operator</string>
+	<string name="expression_type_operator_length_help">Gibt die Länge des angegebenen Textes zurück, beispielsweise: Länge von \"Android\" ist 7</string>
+	<string name="expression_type_operator_length_text">Länge von %1$s</string>
+	<string name="expression_type_operator_match">Operator für übereinstimmende Textteile</string>
+	<string name="expression_type_operator_match_help">Sucht und vergleicht Textteile mit regulären Audrücken und gibt die Ergebnisse zurück, beispielsweise: \"(\\d+).(\\d+)\" in \"13.31\" ist [13, 21]</string>
+	<string name="expression_type_operator_match_text">Finde Übereinstimmung mit %2$s in %1$s</string>
+	<string name="expression_type_operator_matches">Operator für die Überprüfung einer Übereinstimmung</string>
+	<string name="expression_type_operator_matches_help">Erkennt, wenn mit einem regulärer Ausdruck ein Text gefunden wird, beispielsweise: \"\\d+.\\d+\" stimmt mit \"13.31\" überein</string>
+	<string name="expression_type_operator_matches_text">%2$s stimmt mit %1$s überein</string>
+	<string name="expression_type_operator_text_index_of">Text-Positionsoperator</string>
+	<string name="expression_type_operator_text_index_of_help">Gibt die Position des angegeben Textes in dem Quelltext zurück oder 0 wenn ncihts gefunden wird, beispielsweise: Position von \"oid\" in \"android\" ist 5</string>
+	<string name="expression_type_operator_text_index_of_text">Position von %2$s in %1$s</string>
 	<string name="expression_type_operator_tokenizer">Tokenizer operator</string>
 	<string name="expression_type_operator_tokenizer_help">split text into tokens, for example: \"a,b,c\" tokens by \",\" is [\"a\", \"b\", \"c\"]</string>
 	<string name="expression_type_operator_tokenizer_text">tokenize %1$s by \"%2$s\"</string>
@@ -95,7 +95,7 @@
 	<string name="expression_type_operator_property">Property</string>
 	<string name="expression_type_operator_property_help">return the property of a composite value, for example: name of {name: \"Jack\", age: 18} is \"Jack\"</string>
 	<string name="expression_type_operator_property_text">%2$s of %1$s</string>
-														
+
     <string name="expression_type_accelerometer_rotation">Auto rotation state</string>
 	<string name="expression_type_accelerometer_rotation_help">should the device use the accelerometer to change screen orientation</string>
     <string name="expression_type_accessibility">Accessibility state</string>
@@ -312,7 +312,7 @@
     <string name="expression_type_wifi_state_help">possible values: enabling, enabled, disabling, disabled</string>
 	<string name="expression_type_year">Year</string>
 	<string name="expression_type_year_help">the current year, for example: 2013</string>
-	
+
 	<string name="param_expression_delimiter">delimiter</string>
 	<string name="param_expression_default">default</string>
 	<string name="param_expression_equals">equals</string>
@@ -359,7 +359,7 @@
 	<string name="param_expression_unit">unit</string>
 	<string name="param_expression_unit_percent">percent</string>
 	<string name="param_expression_unit_dbm">dBm</string>
-												
+
 	<string name="type_any">any</string>
 	<string name="type_collection">collection</string>
 	<string name="type_composite">composite</string>
@@ -367,7 +367,7 @@
 	<string name="type_number">number</string>
 	<string name="type_string">text</string>
 	<string name="type_timestamp">timestamp</string>
-					
+
     <string name="pick_expression_title">Select an expression</string>
     <string name="pick_expression_invalid_type">This expression with \"%1$s\" type cannot be used for \"%2$s\" expression!</string>
 </resources>
