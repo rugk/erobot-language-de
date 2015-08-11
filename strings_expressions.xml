@@ -2,7 +2,7 @@
 <resources>
 	<string name="expression_title">%1$s Ausdruck</string>
 
-	<string name="expression_shortcuts">veränderliche Ausdrücke</string>
+	<string name="expression_shortcuts">festgelegte Ausdrücke</string>
 
 	<string name="expression_type_constant_boolean">Logischer Wert</string>
 	<string name="expression_type_constant_boolean_help">logischer \"wahr\" oder \"falsch\"-Wert</string>
@@ -25,7 +25,7 @@
 	<string name="expression_type_operator_division_help">Berechnet den Dividenten, beispielsweise: 3 / 2 = 1.5</string>
 	<string name="expression_type_operator_element_at">Element an Operator-Position</string>
 	<string name="expression_type_operator_element_at_help">Gibt das angegebene Element einer Kollektion aus, beispielsweise: [1, 3] Das Element an 2. Position ist 3</string>
-	<string name="expression_type_operator_element_at_text">%1$s. Element ist %2$s</string> <!-- ?? -->
+	<string name="expression_type_operator_element_at_text">Element an Position %1$s ist %2$s</string> <!-- ?? -->
 	<string name="expression_type_operator_modulo">Modulo-Operator</string>
 	<string name="expression_type_operator_modulo_help">Berechnet den Rest einer Division, beispielsweise: 5 % 3 = 2</string>
 	<string name="expression_type_operator_multiply">Multiplikationsoperator</string>
@@ -51,7 +51,7 @@
 	<string name="expression_type_operator_length_help">Gibt die Länge des angegebenen Textes zurück, beispielsweise: Länge von \"Android\" ist 7</string>
 	<string name="expression_type_operator_length_text">Länge von %1$s</string>
 	<string name="expression_type_operator_match">Operator für übereinstimmende Textteile</string>
-	<string name="expression_type_operator_match_help">Sucht und vergleicht Textteile mit regulären Audrücken und gibt die Ergebnisse zurück, beispielsweise: \"(\\d+).(\\d+)\" in \"13.31\" ist [13, 21]</string>
+	<string name="expression_type_operator_match_help">Sucht und vergleicht Textteile mit regulären Audrücken und gibt die Ergebnisse zurück, beispielsweise: \"(\\d+).(\\d+)\" in \"13.31\" ist [13, 31]</string>
 	<string name="expression_type_operator_match_text">Finde Übereinstimmung mit %2$s in %1$s</string>
 	<string name="expression_type_operator_matches">Operator für die Überprüfung einer Übereinstimmung</string>
 	<string name="expression_type_operator_matches_help">Erkennt, wenn mit einem regulärer Ausdruck ein Text gefunden wird, beispielsweise: \"\\d+.\\d+\" stimmt mit \"13.31\" überein</string>
