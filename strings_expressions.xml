@@ -138,6 +138,8 @@
     <string name="expression_type_bluetooth_help">bluetooth is enabled or not</string>
     <string name="expression_type_bluetooth_tethering">Bluetooth tethering state</string>
     <string name="expression_type_bluetooth_tethering_help">bluetooth tethering is enabled or not</string>
+    <string name="expression_type_bonded_bluetooth_devices">Bonded bluetooth devices</string>
+    <string name="expression_type_bonded_bluetooth_devices_help">list of bonded bluetooth devices, properties: address, name</string>
     <string name="expression_type_call_state">Call state</string>
     <string name="expression_type_call_state_help">possible values: idle, offhook, ringing</string>
     <string name="expression_type_clipboard">Clipboard content</string>
@@ -192,6 +194,8 @@
     <string name="expression_type_ip_address_network_prefix_help">returns network prefix for the specified ip address</string>
    	<string name="expression_type_is_battery_charging">Is battery charging</string>
 	<string name="expression_type_is_battery_charging_help">true if battery is charging</string>
+	<string name="expression_type_is_bluetooth_a2dp_on">A2DP audio routing to Bluetooth headset</string>
+	<string name="expression_type_is_bluetooth_a2dp_on_help">true if A2DP audio routing to the Bluetooth headset is on</string>
 	<string name="expression_type_is_call_state">Is call state</string>
 	<string name="expression_type_is_call_state_help">true if call state is in the selected ones</string>
 	<string name="expression_type_is_in_location">Is in location</string>
@@ -200,6 +204,8 @@
     <string name="expression_type_is_day_of_week_help">true if current day of week is in the selected ones</string>
 	<string name="expression_type_is_interruption_filter">Is interruption filter</string>
 	<string name="expression_type_is_interruption_filter_help">true if interruption filter is in the selected ones</string>
+	<string name="expression_type_is_orientation">Is orientation</string>
+	<string name="expression_type_is_orientation_help">true if orientation is in the selected ones</string>
     <string name="expression_type_is_ringer_mode">Is ringer mode</string>
 	<string name="expression_type_is_ringer_mode_help">true if ringer mode is in the selected ones</string>
     <string name="expression_type_is_stay_on_while_plugged_in">Is stay awake</string>
@@ -248,6 +254,8 @@
     <string name="expression_type_nfc_help">nfc is enabled or not</string>
    	<string name="expression_type_open_weather">Weather information</string>
 	<string name="expression_type_open_weather_help">the current weather information</string>
+    <string name="expression_type_orientation">Orientation</string>
+    <string name="expression_type_orientation_help">possible values: landscape, portrait</string>
    	<string name="expression_type_random">Random number</string>
 	<string name="expression_type_random_help">generates a random number</string>
 	<string name="expression_type_random_text">random number</string>
@@ -329,6 +337,9 @@
 	<string name="param_expression_max_value">max value</string>
 	<string name="param_expression_openweather_city">city name</string>
 	<string name="param_expression_openweather_city_help">for example: London or London,uk</string>
+	<string name="param_expression_orientation">orientation</string>
+	<string name="param_expression_orientation_landscape">landscape</string>
+	<string name="param_expression_orientation_portrait">portrait</string>
 	<string name="param_expression_position">position</string>
 	<string name="param_expression_position_help">first position is 1</string>
 	<string name="param_expression_round_decimal_places">decimal places</string>
@@ -336,6 +347,7 @@
 	<string name="param_expression_substring_start_help">index of first char is 1</string>
 	<string name="param_expression_substring_end">end index</string>
 	<string name="param_expression_length">length</string>
+	<string name="param_expression_radix">radix</string>
 	<string name="param_expression_replace_regexp">pattern is regexp</string>
 	<string name="param_expression_replace_replacement">replacement</string>
 	<string name="param_expression_text">text</string>

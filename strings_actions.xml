@@ -270,7 +270,7 @@
 	<string name="action_type_vibrate_setting">Ändere Vibrationseinstellung</string>
 	<string name="action_type_vibrate_setting_help">Ändert die Vibrationseinstellung</string>
     <string name="action_type_view_missed_calls">Markiere einen verpassten Anruf as gelesen</string>
-	<string name="action_type_view_missed_calls_help">Entfernt das "neu"-Flag von einem verpassten Anruf</string>
+	<string name="action_type_view_missed_calls_help">Entfernt das "neu"-Flag von einem verpassten Anruf</string>	
     <string name="action_type_view_unread_sms">Markiere ungelesene SMS-Nachrichten als gelesen</string>
 	<string name="action_type_view_unread_sms_help">Setzt das "Gelesen"-Flag für ungelesenen SMS-Nachrichten</string>
 	<string name="action_type_volume">Ändere Lautstärke</string>
@@ -319,6 +319,7 @@
     <string name="param_action_audio_force_use_config_speaker">Lautsprecher</string>
     <string name="param_action_audio_force_use_config_headphone">Kopfhörer</string>
     <string name="param_action_audio_force_use_config_none">Nichts</string>
+    	<string name="param_action_auto">auto</string>
     <string name="param_action_camera_back">Rückseitenkamera</string>
 	<string name="param_action_camera_front">Vorderseitenkamera</string>
 	<string name="param_action_charset">Zeichensatz</string>

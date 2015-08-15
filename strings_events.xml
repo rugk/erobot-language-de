@@ -238,6 +238,10 @@
     <string name="event_type_ringer_mode_help">the ringer mode has changed</string>
     <string name="event_type_ringtone">Ringtone changed</string>
     <string name="event_type_ringtone_help">settings / sound / phone ringtone changed</string>
+    <string name="event_type_robot_service_started">Robot service started</string>
+    <string name="event_type_robot_service_started_help">robot service started</string>
+    <string name="event_type_robot_service_stopped">Robot service stopped</string>
+    <string name="event_type_robot_service_stopped_help">robot service stopped</string>
     <string name="event_type_rssi">RSSI changed</string>
     <string name="event_type_rssi_help">wifi signal strength changed</string>
     <string name="event_type_scan_results_available">Scan results available</string>
@@ -268,6 +272,8 @@
     <string name="event_type_sensor_rotation_vector">Rotation vector event</string>
     <string name="event_type_sensor_temperature">Temperature event</string>
     <string name="event_type_sensor_help">event received from the sensor</string>
+    <string name="event_type_shell_command_result_by_line">Shell command result by line</string>
+    <string name="event_type_shell_command_result_by_line_help">executes a shell command and a line is read from output</string>
     <string name="event_type_shutdown">Shutdown</string>
     <string name="event_type_shutdown_help">device is shutting down</string>
     <string name="event_type_sms_received">SMS received</string>
