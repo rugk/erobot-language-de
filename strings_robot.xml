@@ -12,7 +12,7 @@
 	<string name="about_developer">Entwickler: Tamás Barta</string>
 
 	<!-- service:accessibility -->
-	<string name="accessibility_availability">Aktivieren Sie den Zugänglichkeitsdienst von E-Robot um diese Funktion zu nutzen.</string>
+	<string name="accessibility_availability">Aktivieren Sie den Zugriff von E-Robot um diese Funktion zu nutzen.</string>
 	<string name="accessibility_description">Dieser Dienst macht es möglich neue Benachrichtigungen als Events in E-Robot zu verwenden.</string>
 
 	<!-- activity:applications -->
